@@ -1,0 +1,108 @@
+:root {
+    --one: #265073;
+    --two: #2d9596;
+    --three: #9ad0c2;
+    --text: #f1fada;
+  }
+  
+  body {
+    background-color: var(--two);
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    margin: 0;
+  }
+  
+  header {
+    background-color: var(--one);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--one);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--three);
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--three);
+    color: var(--one);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: var(--two);
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--three);
+    border-radius: 10px;
+  }
+  
+  .contact-details h2,  .contact-details p {
+    margin-top: 0;
+    color: var(--one);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--one);
+    color: var(--text);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--three);
+    color: var(--one);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 20px 0 0 0;
+  }
+  
+  .home-button:hover {
+    background-color: var(--two);
+  }
+  
