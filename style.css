@@ -215,8 +215,11 @@ footer nav ul li a {
 
 @media (max-width: 730px) {
     nav .menu-btn i, nav input {
-        display: block;
-    }
+    display: block;
+    align-items: center;  
+    align-content: center;  
+    top: 50%;
+}
     #click:checked ~ .menu-btn i:before {
         content: "\f00d";
     }
