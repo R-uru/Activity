@@ -1,3 +1,5 @@
+/* Your CSS styles go here */
+
 :root {
     --one: #265073;
     --two: #2d9596;
@@ -43,7 +45,7 @@
   .contact-form input[type="text"],
   .contact-form input[type="email"],
   .contact-form textarea {
-    width: 100%;
+    width: calc(100% - 22px); /* Adjusted to include the same margin on both sides */
     padding: 10px;
     border: 1px solid var(--three);
     border-radius: 5px;
@@ -76,7 +78,8 @@
     border-radius: 10px;
   }
   
-  .contact-details h2,  .contact-details p {
+  .contact-details h2,
+  .contact-details p {
     margin-top: 0;
     color: var(--one);
   }
@@ -91,6 +94,7 @@
     left: 0;
     width: 100%;
   }
+  
   .home-button {
     display: inline-block;
     padding: 10px 20px;
