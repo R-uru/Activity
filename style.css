@@ -53,6 +53,7 @@ header:nth-child(1) nav p {
     font-weight: 900;
     letter-spacing: 10px;
     font-size: 33px;
+    word-break: break-all;
 }
 header:nth-child(1) nav sub {
     margin-left: 10px;
@@ -62,6 +63,7 @@ header:nth-child(2) nav p {
     font-weight: 900;
     letter-spacing: 10px;
     font-size: 33px;
+    word-break: break-all;
 }
 nav ul {
     display: flex;
@@ -149,6 +151,8 @@ header a {
 .events-content, .events-info {
     width: 500px;
     height: 500px;
+    min-width: 100px;
+    min-height: 100px;
     background-color: var(--one);
     display: flex;
     align-items: center;
@@ -225,16 +229,17 @@ header a {
         overflow-y: auto;
     }
     .events-content, .events-info {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        max-width: 180px;
+        height: 180px;
         margin: 0 0px;
     }
     .events {
         min-height: 300px;
     }
     .events-content img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
     .events-info p {
         margin: 20px;
@@ -251,5 +256,20 @@ header a {
         background-color: var(--text);
         padding: 15px;
         border-radius: 10px;
+    }
+}
+@media (max-width: 246px) {
+    header:nth-child(1) nav .logo-container{
+        height: auto;
+        display: block;
+    }
+    .events {
+        height: auto;
+        display: block;
+        justify-content: initial;
+    }
+    .events-content, .events-info {
+        width: auto;
+        
     }
 }
