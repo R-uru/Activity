@@ -111,3 +111,8 @@
     margin: 0 0 20px 0;
   }
   
+  @media (max-width: 730px) {
+    .container {
+        margin: 80px 50px;
+    }
+  }
