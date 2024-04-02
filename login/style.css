@@ -31,6 +31,7 @@ header h1 {
   background-color: var(--one);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
 }
 
 .form-group {
@@ -88,7 +89,7 @@ header h1 {
   transition: background-color 0.3s ease;
   margin:20px 0 20px 0;
 }
-
+ 
 .home-button:hover {
   background-color: var(--two);
 }

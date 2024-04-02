@@ -42,8 +42,8 @@ header h1 {
   font-weight: bold;
 }
 
-.form-group input[type="email"],
-.form-group input[type="password"] {
+input[type="email"],
+input[type="password"] {
   width: calc(100% - 22px);
   padding: 10px;
   border: 1px solid var(--three);
